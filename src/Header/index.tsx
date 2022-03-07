@@ -1,4 +1,5 @@
 import React from 'react';
+import { SigInButton } from '../SigInButton';
 
 import styles from "./style.module.scss";
 
@@ -11,6 +12,7 @@ export const Header: React.FC = () => {
                   <a className={styles.active}>Home</a>
                   <a>Posts</a>
               </nav>
+              <SigInButton/>
           </div>
       </header>
   );
